@@ -24,6 +24,7 @@ function LikeWechatCampaign() {
     }
 
     toast("微信运动排行榜界面，准备开始点赞");
+    sleep(2000);
     var screen = className("ListView").findOnce();
     var likeCount = 0;
     while (true) {
